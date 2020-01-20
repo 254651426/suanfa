@@ -4,7 +4,7 @@
 <html>
 <body>
 	<shiro:hasPermission name="admin:goods:save">
-		<label>这是拥有admin角色用户 才能使用的保存</label>
+		<label>这是拥有admin角色用户 才能使用的保存</label>11
 	</shiro:hasPermission>
 
 	<shiro:hasPermission name="admin:goods:update">
