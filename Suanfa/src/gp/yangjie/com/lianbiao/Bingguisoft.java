@@ -1,5 +1,10 @@
 package gp.yangjie.com.lianbiao;
 
+/**
+ * 归并排序
+ * 
+ * @author whIDE
+ */
 public class Bingguisoft {
 	public static void main(String[] args) {
 		MylinkNode l1 = init();
@@ -8,7 +13,6 @@ public class Bingguisoft {
 			System.out.println(l2.value);
 			l2 = l2.next;
 		}
-
 	}
 
 	public static MylinkNode init() {

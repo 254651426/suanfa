@@ -9,10 +9,10 @@ public class Suzu1 {
 	 */
 	public static void main(String[] args) {
 
-		int moveK = 0;
+		int moveK = 1;
 		int[] nums = new int[] { 1, 2, 3, 4, 5 };
 		youyi(nums, moveK);
-//		youyitwo(nums, moveK);
+		// youyitwo(nums, moveK);
 	}
 
 	private static void youyi(int[] nums, int moveK) {

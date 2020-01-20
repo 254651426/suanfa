@@ -2,6 +2,7 @@ package soft;
 
 /**
  * 快速排序
+ * 
  * @author whIDE
  *
  */
@@ -12,14 +13,14 @@ public class Qsort {
 		int len = arr.length - 1;
 		arr = qsort(arr, 0, len);
 		for (int i : arr) {
-			System.out.print(i + "\t");
+			System.out.print(i + " ");
 		}
 	}
 
 	public static int[] qsort(int arr[], int start, int end) {
-		int pivot = arr[start];
-		int i = start;
-		int j = end;
+		int pivot = arr[start];//基准数据
+		int i = start; //开始结点
+		int j = end;  //尾结点
 		while (i < j) {
 			while ((i < j) && (arr[j] > pivot)) {
 				j--;

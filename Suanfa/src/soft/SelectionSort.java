@@ -1,6 +1,11 @@
 package soft;
 
-
+/**
+ * 选择排序
+ * 
+ * @author whIDE
+ *
+ */
 public class SelectionSort {
 
 	public static void main(String[] args) {
@@ -26,9 +31,9 @@ public class SelectionSort {
 				arr[min] = arr[i];
 				arr[i] = temp;
 			}
-			
+
 			for (int j = 0; j < arr.length; j++) {
-				System.out.print(arr[j]+",");
+				System.out.print(arr[j] + ",");
 			}
 			System.out.println();
 		}
